@@ -4,6 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1   //这段应该没什么用，拷贝代码，但是代码库是空的。
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v1
